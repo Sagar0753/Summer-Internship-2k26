@@ -3,6 +3,7 @@ b = int(input("Value 2 :"))
 c = a + b
 #Method 1
 print ("Value 1 is",a)
+print ("Value 2 is",b)
 #Method 2
 print ("Value 1 is",a,"\nValue 2 is",b)
 #Method 3
