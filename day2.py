@@ -38,3 +38,49 @@ q =  input("Enter the Value 2:")
 r =  p + q
 print ("The Output without Type casting will be",r)
 
+#Making table using For Loop
+
+for i in range(1,20,1):
+	print("5*",i,"=",5*i)
+
+#if loop
+
+a = 21
+
+if a == 21:
+	print("The value of a is 21")
+elif a > 21:
+	print("The value of a is Greater than 21")
+else : 
+	print("The value of a is Less than 21")
+
+#Marks Grade Code
+
+print("Please Input your Marks below respective to given Subjects!")
+
+Mathematics = float(input("Enter your Marks for Mathematics:"))
+Science = float(input("Enter your Marks for Science:"))
+English = float(input("Enter your Marks for English:"))
+Python = float(input("Enter your Marks for Python:"))
+DSA = float(input("Enter your Marks for DSA:"))
+
+Marks = [Mathematics,Science,English,Python,DSA]
+Subjects = ['Mathematics','Science','English','Python','DSA']
+
+for i in range Marks:
+ for j in range Subjects:
+  if i >= 93:
+   print ("Your Grade in",Subjects[j],"Subject is AA")
+  elif 70<=i and i<=92:
+   print ("Your Grade in",Subjects[j],"Subject is BB")
+  elif 60<=i and i<=69:
+   print ("Your Grade in",Subjects[j],"Subject is CC")
+  elif 50<=i and i<=59:
+   print ("Your Grade in",Subjects[j],"Subject is DD")
+  elif 19<=i and i<=49:
+   print ("Your Grade in",Subjects[j],"Subject is EE")
+  elif 0<=i and i<=18 :
+   print ("Sorry Better Luck Next This Time Hahahha")
+  else :
+   print ("Please Provide Valid Marks")
+
