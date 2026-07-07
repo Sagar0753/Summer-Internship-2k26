@@ -13,7 +13,7 @@ print(Numbers)
 Max = 0
 
 for i in range(0,5):
-    if Numbers[i] <= Max:
+    if Numbers[i] >= Max:
         Max = Numbers[i]
 
 for i in range(0,5):
