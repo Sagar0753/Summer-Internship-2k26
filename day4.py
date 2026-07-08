@@ -38,4 +38,11 @@ total = n1+n2+n3+n4+n5
 avg = total/5
 print ("The Average of the 5 numbers is:",avg)
 
+#5.Calculate Simple interest.(Formula :- (p*r*t)/100)
 
+p = float(input("Enter the Principal:"))
+r = float(input("Enter the Annual interest rate:"))
+t = float(input('Enter the time in years:'))
+sim = p*r*t
+interest = sim/100
+print ("The Simple Interest on the Amount for",t,"Year will be",interest,"Rupees")
