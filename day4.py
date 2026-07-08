@@ -27,15 +27,21 @@ area = pi * r * r
 print("Are of Circle is:",area)
 print("Are of Diameter is:",d)
 
-#4.Calculate average of 5 numbers.
+#4.Calculate average of n numbers.
 
-n1 = float(input("Enter the Number 1:"))
-n2 = float(input("Enter the Number 2:"))
-n3 = float(input("Enter the Number 3:"))
-n4 = float(input("Enter the Number 4:"))
-n5 = float(input("Enter the Number 5:"))
-total = n1+n2+n3+n4+n5
-avg = total/5
+Numbers = []
+Count = int(input("Enter How many Numbers :"))
+total = 0
+
+for i in range(Count):
+    print("Enter number",i + 1,":")
+    var = float(input())
+    Numbers.append(var)
+    total += var
+
+print("All the Given numbers are",Numbers)
+print("The total of all the numbers is:",total)
+avg = total/int(Count)
 print ("The Average of the 5 numbers is:",avg)
 
 #5.Calculate Simple interest.(Formula :- (p*r*t)/100)
