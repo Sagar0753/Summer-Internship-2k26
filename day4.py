@@ -1,4 +1,4 @@
-#1.Calculate area of a rectangle.(Formula :- L*B)
+#1.Calculate area of a rectangle.
 
 Length = float(input("Enter the length of 4-side polynomial:"))
 Breadth = float (input("Enter the breadth of 4-side polynomial:"))
@@ -18,7 +18,7 @@ Area = Length * Breadth
 
 print("The the Area of rectangle is:",Area)
 
-#3.Calculate area of a circle.(Formula :- pi*r*r)
+#3.Calculate area of a circle.
 
 pi = 3.14
 r = float(input("Enter the radius of Circle: "))
@@ -44,7 +44,7 @@ print("The total of all the numbers is:",total)
 avg = total/int(Count)
 print ("The Average of the 5 numbers is:",avg)
 
-#5.Calculate Simple interest.(Formula :- (p*r*t)/100)
+#5.Calculate Simple interest.
 
 p = float(input("Enter the Principal:"))
 r = float(input("Enter the Annual interest rate:"))
@@ -52,3 +52,19 @@ t = float(input('Enter the time in years:'))
 sim = p*r*t
 interest = sim/100
 print ("The Simple Interest on the Amount for",t,"Year will be",interest,"Rupees")
+
+#6. Take any three numbers and find their squares and cubes.
+
+Numbers =['','','']
+Squares =[]
+Cubes =[]
+for i in range(len(Numbers)):
+    print("Enter the number",i + 1,":")
+    var = int(input())
+    Numbers[i]=var
+    Squares.append(int(var * var))
+    Cubes.append(int(var * var * var))
+
+print("The Entred Numbers are:",Numbers)
+print("The Sqaure of the given Numbers are:",Squares)
+print("The Cube of the given Numbers are:",Cubes)
