@@ -24,3 +24,13 @@ if n1<=n2:
     print("Number 1 is smallest number.")
 else:
     print("Number 2 is smallest number.")
+
+# Take a number and check whether it is zero, positive or negative.
+num = float(input("Enter any Number:"))
+if num == 0:
+    print("Entered Number is zero")
+elif num>0:
+    print("Entered Number is Postive")
+else:
+    print("Entered Number is Negative")
+
