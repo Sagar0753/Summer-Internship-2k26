@@ -75,3 +75,11 @@ else:
         print("Entered Number is less than 100 and an even number")
     else:
         print("Entered Number is less than 100 and an odd number")
+
+# Take a number to print the square of a number if it is less than 10.
+n = float(input("Enter Number:"))
+if n<10:
+    sq = n*n
+    print("The given number is less than 10 and its square is:",sq)
+else:
+    print("The given number is greater than or equal to 10")
