@@ -117,5 +117,18 @@ elif n2<=n1 and n2<=n3:
 else:
     print("Number 3 is smallest")
 
+# Take a number and find factorial of that number.
+num = int(input("Enter any Number:"))
+temp = 1
+if num == 0 or num == 1:
+    print("The Factorial of a given number is: 1")
+for i in range(num):
+    if num>1:
+        temp = temp * num
+        num = num - 1
+print("The Factorial of a given number is:",temp)
+
+# Write a program to swap 2 numbers using third variable.
+
 
 
