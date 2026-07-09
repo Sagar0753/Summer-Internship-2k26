@@ -48,3 +48,12 @@ if age >= 18:
     print("You are eligible to Vote")
 else:
     print("Your are not eligible to Vote")
+
+# Write a program to check whether the blood donor is eligible or not for donating blood. The conditions is Age should be above 18 year but not more than 55 year.
+age = int(input("Enter you age:"))
+if age >= 18 & age <= 55:
+    print("You are eligible to Donate Blood")
+else:
+    print("Your are not eligible to Donate Blood")
+
+# Take 2 numbers and find smallest number.
