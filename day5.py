@@ -83,3 +83,39 @@ if n<10:
     print("The given number is less than 10 and its square is:",sq)
 else:
     print("The given number is greater than or equal to 10")
+
+# Take a number and check whether it is zero, positive or negative using nested IF…ELSE statement.
+num = float(input("Enter any Number:"))
+if num == 0:
+    print("Entered Number is zero")
+elif num>0:
+    print("Entered Number is Postive")
+else:
+    print("Entered Number is Negative")
+
+# Take 3 numbers and find greatest number using nested IF….ELSE statement.
+n1 = float(input("Enter Number 1:"))
+n2 = float(input("Enter Number 2:"))
+n3 = float(input("Enter Number 3:"))
+if n1>=n2: 
+    if n1>=n3:
+        print("Number 1 is greatest")
+elif n2>=n1: 
+    if n2>=n3:
+        print("Number 2 is greatest")
+else:
+    print("Number 3 is greatest")
+
+# Take 3 numbers and find smallest number using logical operator
+n1 = float(input("Enter Number 1:"))
+n2 = float(input("Enter Number 2:"))
+n3 = float(input("Enter Number 3:"))
+if n1<=n2 and n1<=n3:
+    print("Number 1 is smallest")
+elif n2<=n1 and n2<=n3:
+    print("Number 2 is smallest")
+else:
+    print("Number 3 is smallest")
+
+
+
