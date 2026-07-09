@@ -9,3 +9,10 @@ if num % 2 == 0:
     print("Entered Number is even")
 else:
     print("Entered Number is odd")
+
+#Take a year and check whether it is leap year or not.
+year = int(input("Enter any Year"))
+if year % 4 == 0:
+    print("Its a Leap Year")
+else:
+    print("Not a Leap year")
