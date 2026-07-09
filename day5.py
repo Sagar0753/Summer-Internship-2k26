@@ -34,3 +34,10 @@ elif num>0:
 else:
     print("Entered Number is Negative")
 
+# Take 2 numbers and display greatest number. (Number can be equal).
+n1 = float(input("Enter Number 1:"))
+n2 = float(input("Enter Number 2:"))
+if n1>=n2:
+    print("Number 1 is greatest number.")
+else:
+    print("Number 2 is greatest number.")
