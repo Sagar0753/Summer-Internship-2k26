@@ -57,3 +57,21 @@ else:
     print("Your are not eligible to Donate Blood")
 
 # Take 2 numbers and find smallest number.
+n1 = float(input("Enter Number 1:"))
+n2 = float(input("Enter Number 2:"))
+if n1<=n2:
+    print("Number 1 is smallest number.")
+else:
+    print("Number 2 is smallest number.")
+
+# Take a number check if a number is less than 100 or not. If it is less than 100 then check if it is odd or even.
+n = float(input("Enter Number:"))
+if n > 100:
+    print ("Entered Number is greater than 100")
+elif n == 100:
+    print("Entered Number is 100")
+else:
+    if n%2 == 0:
+        print("Entered Number is less than 100 and an even number")
+    else:
+        print("Entered Number is less than 100 and an odd number")
