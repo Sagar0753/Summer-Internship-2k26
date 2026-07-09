@@ -41,3 +41,10 @@ if n1>=n2:
     print("Number 1 is greatest number.")
 else:
     print("Number 2 is greatest number.")
+
+# Take age and whether it is less than 18 or not. If it is less than 18 then print not eligible for vote.
+age = int(input("Enter you age:"))
+if age >= 18:
+    print("You are eligible to Vote")
+else:
+    print("Your are not eligible to Vote")
