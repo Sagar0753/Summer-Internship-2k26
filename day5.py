@@ -129,6 +129,13 @@ for i in range(num):
 print("The Factorial of a given number is:",temp)
 
 # Write a program to swap 2 numbers using third variable.
-
+a = 10
+b = 20
+temp
+print("Before Swapping the elements are: a =",a,"b =",b)
+temp = a
+a = b
+b = temp
+print("After Swapping the elements are: a =",a,"b =",b)
 
 
