@@ -138,4 +138,9 @@ a = b
 b = temp
 print("After Swapping the elements are: a =",a,"b =",b)
 
-
+# Take a number. Generate multiplication table of that number.
+num = int(input("Enter any Number:"))
+mul = int(input("Enter the number of multiplicative terms:"))
+print("The Multiplication table of",num,"is shown below")
+for x in range(mul):
+    print("5 x",x+1,"=",5*(x+1))
