@@ -203,3 +203,28 @@ if num >= 1 and num <= 12:
         print("December")
 else:
     print("Please Enter a number between 1 to 12 only!")
+
+# Make a simple calculator using match case. 1.Addition 2.Subtraction 3.Multiplication 4.Division
+n1 = float(input("Enter Number 1:"))
+n2 = float(input("Enter Number 2:"))
+print("Enter 1 for Addition")
+print("Enter 2 for Subtraction")
+print("Enter 3 for Multiplication")
+print("Enter 4 for Divison:")
+num = int(input())
+if num >= 1 and num <= 4:   
+    match num:
+      case 1:
+        add = n1 + n2
+        print("The Addition of numbers are:",add)
+      case 2:
+        sub = n1 - n2
+        print("The Addition of numbers are:",sub)
+      case 3:
+        mul = n1 * n2
+        print("The Addition of numbers are:",mul)
+      case 4:
+        div = n1 / n2
+        print("The Addition of numbers are:",div)
+else:
+    print("Please Select Appropriate option!")
