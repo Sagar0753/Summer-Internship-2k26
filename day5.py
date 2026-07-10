@@ -154,19 +154,52 @@ while num != 0:
 print("The Sum of Natural number till the given number is:",temp)
 
 # Take a number. If number is 1 then print Monday, 2 then print Tuesday and so on…
-num = int(input("Enter any Number:"))
-if num == 1:
-    print("Today is Monday!")
-elif num == 2:
-    print("Today is Tuesday!")
-elif num == 3:
-    print("Today is Wednesday!")
-elif num == 4:
-    print("Today is Thursday!")
-elif num == 5:
-    print("Today is Friday!")
-elif num == 6:
-    print("Today is Saturday!")
-elif num == 7:
-    print("Today is Sunday!")
+num = int(input("Enter any Number between 1 to 7:"))
+if num >= 1 and num <= 7:
+    if num == 1:
+        print("Today is Monday!")
+    elif num == 2:
+        print("Today is Tuesday!")
+    elif num == 3:
+        print("Today is Wednesday!")
+    elif num == 4:
+        print("Today is Thursday!")
+    elif num == 5:
+        print("Today is Friday!")
+    elif num == 6:
+        print("Today is Saturday!")
+    elif num == 7:
+        print("Today is Sunday!")
+else:
+    print("Please Enter a number between 1 to 7 only!")
 
+# Take a number between 1 to 12.If number is 1 then print January, 2 then print February and so on… (Use match case)
+num = int(input("Enter any Number between 1 to 12:"))
+if num >= 1 and num <= 12:   
+    match num:
+      case 1:
+        print("January")
+      case 2:
+        print("February")
+      case 3:
+        print("March")
+      case 4:
+        print("April")
+      case 5:
+        print("May")
+      case 6:
+        print("June")
+      case 7:
+        print("July")
+      case 8:
+        print("August")
+      case 9:
+        print("September")
+      case 10:
+        print("October")
+      case 11:
+        print("November")
+      case 12:
+        print("December")
+else:
+    print("Please Enter a number between 1 to 12 only!")
