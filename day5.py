@@ -153,3 +153,20 @@ while num != 0:
     num -= 1
 print("The Sum of Natural number till the given number is:",temp)
 
+# Take a number. If number is 1 then print Monday, 2 then print Tuesday and so on…
+num = int(input("Enter any Number:"))
+if num == 1:
+    print("Today is Monday!")
+elif num == 2:
+    print("Today is Tuesday!")
+elif num == 3:
+    print("Today is Wednesday!")
+elif num == 4:
+    print("Today is Thursday!")
+elif num == 5:
+    print("Today is Friday!")
+elif num == 6:
+    print("Today is Saturday!")
+elif num == 7:
+    print("Today is Sunday!")
+
