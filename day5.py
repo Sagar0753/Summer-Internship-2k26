@@ -144,3 +144,12 @@ mul = int(input("Enter the number of multiplicative terms:"))
 print("The Multiplication table of",num,"is shown below")
 for x in range(mul):
     print("5 x",x+1,"=",5*(x+1))
+
+# Take a number and calculate sum of natural numbers.
+num = int(input("Enter any Number:"))
+temp = 0
+while num != 0:
+    temp += num
+    num -= 1
+print("The Sum of Natural number till the given number is:",temp)
+
